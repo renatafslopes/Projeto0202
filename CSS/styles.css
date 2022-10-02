@@ -1,14 +1,14 @@
-/*Geral*/
+/* Geral */
 *{
-    pagdding: o;
+    padding: o;
     margin: o;
-    font-family: Hevetica;
+    font-family: Helvetica;
     color: #333;
     box-sizing: boder-box;
 }
 
 body {
-    background-image: url(../Img/tarefa.png);
+    background-image: url('img/bg.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -152,3 +152,4 @@ select{
         text-decoration: line-through;
         font-style: italic;
     }
+

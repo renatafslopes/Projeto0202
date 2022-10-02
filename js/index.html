@@ -4,50 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 02</title>
+    <title>Todo Avançado</title>
     <link rel="sylesheet" href="css/styles.css">
     <!-- Font Awesome -->
     <link 
     rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
+    referrerpolicy="no-referrer"
+    />
     <!--JS do projeto-->
-    <script src="js/scripts.js" defer></script>
+    <script src="/scripts.js" defer></script>
 </head>
 <body>
     <div class="todo-container">
         <header>
-            <h1>Organização</h1>
+            <h1>Todo Avançado</h1>
         </header>
-        <form id="todo-form"></form>
-        <p>Adicione a sua tarefa</p>
+        <form id="todo-form">
+        <p>Adicione a sua tarefa:</p>
         <div class="form-control">
             <input
             type="text"
             id="todo-input"
-            placeholder="o que vai fazer"
-            />
+            placeholder="o que vai fazer?">
             <button type="submit">
               <i class= "fa-thin fa-plus"></i>
           </button>
         </div>
     </form>
-    <form id="edit-form" class="hide">
-    <p></p> Edite sua tarefa</p>
+    <form id="edit-form">
+    <p>Edite sua tarefa:</p>
     <div class="form-control">
-        <input type="text" id="edit-input">
+        <input type="text" id="edit-input" />
         <button type="submit">
         <i class="fa-solid fa-check-double"></i>
     </button>
     </div>
-    <button id="cancel-edit btn">Cancelar</button>
+    <button id="cancel-edit-btn">Cancelar</button>
     </form>
     <div id="toolbar">
         <div id="search">
-            <h4>Pesquisar</h4>
+            <h4>Pesquisar:</h4>
             <form>
-                <input type="text" id="search-input" placeholder="Buscar">
+                <input type="text" id="search-input" placeholder="Buscar" />
                 <button id="erase-button">
                    <i class="fa-solida fa-delete-left"></i>
                 </button>
@@ -58,7 +58,7 @@
             <select id="filter-selet">
                 <option value="all">Todos</option>
                 <option value="done">Feitos</option>
-                <option value="all">A Fazer</option>
+                <option value="todo">A Fazer</option>
             </select>
         </div>
     </div>
@@ -75,6 +75,7 @@
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
+        <div class="todo">
         <h3>Estudar JavaScript...</h3>
         <button class="finish-todo">
             <i class="fa-solid fa-check"></i>
@@ -86,7 +87,8 @@
             <i class="fa-solid fa-xmark"></i>
         </button>
     </div>
-
+</div>
     </div>
   </body>
 </html>
+  
